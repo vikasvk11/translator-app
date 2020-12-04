@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>banana speak</title>
+    <style>
+        textarea {
+            width: 80%;
+            height: 10vh;
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        #txt-output {
+            border: 2px solid black;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+        }
+    </style>
 </head>
 <body>
     <h1>Talk Banana</h1>
+    <textarea id="txt-input" placeholder="Enter your text here"></textarea>
     <button id="btn-translate">Translate</button>
+    <div>Output is below</div>
+    <div id="txt-output"></div>
+
+ 
+
+
     <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
